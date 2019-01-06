@@ -7,8 +7,7 @@
 //
 
 import UIKit
-class number
-{
+class number{
     var top:Int = -1
     var num1 = [Double](repeating: 0, count: 100)
     func push1(sub4:Double){
@@ -28,8 +27,7 @@ class number
         }
     }
 }
-class signal
-{
+class signal{
     var top:Int = -1
     var sig = [Int](repeating: 0, count: 100)
     func push1(sigs:Int){
@@ -52,7 +50,6 @@ class signal
         }
     }
 }
-
 class ViewController: UIViewController {
     var i = 0
     @IBOutlet weak var resul: UITextField!
@@ -90,8 +87,7 @@ class ViewController: UIViewController {
                 sub4 = tmp[index3..<index4]
                 cnum1 = Double(sub4)!
                     num.push1(sub4:cnum1)}
-                else
-                {
+                else{
                     flag = 1
                 }
                  frnum = afnum + 1
@@ -126,8 +122,7 @@ class ViewController: UIViewController {
                     sub4 = tmp[index3..<index4]
                     cnum1 = Double(sub4)!
                     num.push1(sub4:cnum1)}
-                else
-                {
+                else{
                     flag = 1
                 }
                 frnum = afnum + 1
@@ -159,8 +154,7 @@ class ViewController: UIViewController {
                     sub4 = tmp[index3..<index4]
                     cnum1 = Double(sub4)!
                     num.push1(sub4:cnum1)}
-                else
-                {
+                else{
                     flag = 1
                 }
                 frnum = afnum + 1
@@ -189,8 +183,7 @@ class ViewController: UIViewController {
                     sub4 = tmp[index3..<index4]
                     cnum1 = Double(sub4)!
                     num.push1(sub4:cnum1)}
-                else
-                {
+                else{
                     flag = 1
                 }
                 frnum = afnum + 1
@@ -240,8 +233,7 @@ class ViewController: UIViewController {
                     sub4 = tmp[index3..<index4]
                     cnum1 = Double(sub4)!
                     num.push1(sub4:cnum1)}
-                else
-                {
+                else{
                     flag = 1
                 }
                 frnum = afnum + 1
